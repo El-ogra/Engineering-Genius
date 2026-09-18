@@ -55,3 +55,4 @@ bun.lock
 *.temp
 *.log
 !build/*.log
+.opencode/storage/
