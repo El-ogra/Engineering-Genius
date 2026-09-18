@@ -5,5 +5,18 @@
     "websearch": "allow",
     "webfetch": "allow",
     "question": "allow"
+  },
+  "agent": {
+    "inkling": {
+      "model": "openrouter/thinkingmachines/inkling:free",
+      "mode": "primary",
+      "permission": {
+        "websearch": "allow",
+        "webfetch": "allow",
+        "question": "allow",
+        "local-memory": "allow",
+        "memory": "allow"
+      }
+    }
   }
 }
