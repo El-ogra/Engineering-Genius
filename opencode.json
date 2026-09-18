@@ -10,7 +10,9 @@
     "build": {
       "permission": {
         "local-memory": "deny",
-        "memory": "deny"
+        "memory": "deny",
+        "present_files": "deny",
+        "storage": "deny"
       }
     },
     "inkling": {
@@ -21,19 +23,61 @@
         "webfetch": "allow",
         "question": "allow",
         "local-memory": "allow",
-        "memory": "allow"
+        "memory": "allow",
+        "present_files": "allow",
+        "storage": "allow"
       }
     },
     "orchestrator": {
       "permission": {
         "local-memory": "deny",
-        "memory": "deny"
+        "memory": "deny",
+        "present_files": "deny",
+        "storage": "deny"
       }
     },
     "plan": {
       "permission": {
         "local-memory": "deny",
-        "memory": "deny"
+        "memory": "deny",
+        "present_files": "deny",
+        "storage": "deny"
+      }
+    },
+    "auditor-final": {
+      "permission": {
+        "present_files": "deny",
+        "storage": "deny"
+      }
+    },
+    "documenter-final": {
+      "permission": {
+        "present_files": "deny",
+        "storage": "deny"
+      }
+    },
+    "executor-final": {
+      "permission": {
+        "present_files": "deny",
+        "storage": "deny"
+      }
+    },
+    "planner-final": {
+      "permission": {
+        "present_files": "deny",
+        "storage": "deny"
+      }
+    },
+    "supervisor-final": {
+      "permission": {
+        "present_files": "deny",
+        "storage": "deny"
+      }
+    },
+    "verifier-final": {
+      "permission": {
+        "present_files": "deny",
+        "storage": "deny"
       }
     }
   }
