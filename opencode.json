@@ -7,6 +7,12 @@
     "question": "allow"
   },
   "agent": {
+    "build": {
+      "permission": {
+        "local-memory": "deny",
+        "memory": "deny"
+      }
+    },
     "inkling": {
       "model": "openrouter/thinkingmachines/inkling:free",
       "mode": "primary",
@@ -16,6 +22,18 @@
         "question": "allow",
         "local-memory": "allow",
         "memory": "allow"
+      }
+    },
+    "orchestrator": {
+      "permission": {
+        "local-memory": "deny",
+        "memory": "deny"
+      }
+    },
+    "plan": {
+      "permission": {
+        "local-memory": "deny",
+        "memory": "deny"
       }
     }
   }
