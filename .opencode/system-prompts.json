@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/opencode-sysprompt-override/schemas/system-prompts.schema.json",
+  "rules": [
+    {
+      "match": {
+        "providerID": "openrouter",
+        "modelID": "thinkingmachines/inkling:free"
+      },
+      "mode": "append",
+      "position": "end",
+      "promptFile": "./prompts/Claude-Fable-5.1.md"
+    }
+  ]
+}

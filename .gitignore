@@ -1,0 +1,57 @@
+# Operating System (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# IDE / Editor
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# .NET / C#
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vsconfig
+
+# Build outputs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+dist/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+
+# Node.js (for tooling, not the product)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun.lock
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pfx
+*.p12
+
+# Temporary and log files
+*.tmp
+*.temp
+*.log
+!build/*.log
